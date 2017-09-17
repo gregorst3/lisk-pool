@@ -7,7 +7,7 @@ app.controller('indexCtrl', function($scope, $http) {
 
     $http.get ('poollogs.json').then (function (res) {
         $scope.lastpayout = res.data.lastpayout * 1000;
-        $scope.nextpayout = moment ($scope.lastpayout).add (1, 'week').valueOf();
+        $scope.nextpayout = moment ($scope.lastpayout).add (1, 'day').valueOf();
         $scope.accounts = [];
 
         for (addr in res.data.accounts) {
