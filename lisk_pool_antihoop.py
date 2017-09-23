@@ -87,10 +87,8 @@ def pool ():
 	if len (topay) == 0:
 		print ('Nothing to distribute, exiting...')
 		return
-		
-
-			
-
+	
+	
 
 	
 	log['lastpayout'] = int (time.time ())
@@ -105,4 +103,7 @@ def pool ():
 		if yes == 'y':
 			saveLog (log)
 			
+			
 
+if __name__ == "__main__":
+	pool ()
