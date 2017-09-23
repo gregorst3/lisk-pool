@@ -92,7 +92,6 @@ def pool ():
 			
 
 
-	f.close ()
 	
 	log['lastpayout'] = int (time.time ())
 	
@@ -106,7 +105,4 @@ def pool ():
 		if yes == 'y':
 			saveLog (log)
 			
-			
 
-if __name__ == "__main__":
-	pool ()
