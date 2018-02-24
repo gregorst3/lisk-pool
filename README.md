@@ -38,7 +38,11 @@ Also, replace docs/index.html with docs/index.ark.html
 
 ## Running it
 
-First install requests:
+First install clone and install requests:
+
+`git clone https://github.com/dakk/lisk-pool`
+
+`cd lisk-pool`
 
 `pip3 install requests`
 
