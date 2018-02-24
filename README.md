@@ -38,9 +38,14 @@ Also, replace docs/index.html with docs/index.ark.html
 
 ## Running it
 
+
 First install requests:
 
 `pip3 install requests`
+
+pip3: command not found?
+
+```apt-get install python3-pip```
 
 Then start it:
 
